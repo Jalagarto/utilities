@@ -6,7 +6,7 @@ try a writer, to try it as a work around"""
 def main(file = "writting_inside.py", printer):
 
     printer = "    print('line added correctly_2')"
-    # read it
+    # create it & read it
     with open(file, "r") as f:
         lines = f.readlines()
     # write all excepting the one we don't want:
